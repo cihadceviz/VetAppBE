@@ -1,5 +1,6 @@
 ﻿using System;
 using VetHos.Business.Services.VetName;
+using VetHos.Business.Services.VetService;
 
 namespace VetHos.Business
 {
@@ -8,7 +9,8 @@ namespace VetHos.Business
 		public static IServiceCollection AddVetHosBusinesServices(this IServiceCollection services)
 		{
 			services.AddScoped<IVetNameService, VetNameService>();
-			return services;
+			services.AddScoped<IVetService, VetService>();
+            return services;
 		}
 	}
 }

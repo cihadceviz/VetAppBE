@@ -15,8 +15,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Remove="Properties\" />
+    <None Remove="ControllerDtos\VetController\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Properties\" />
+    <Folder Include="ControllerDtos\VetController\" />
   </ItemGroup>
 </Project>

@@ -14,7 +14,7 @@ namespace VetHos.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class HomeController : Controller
+    public class HomeController : ControllerBase
     {
         private readonly IVetNameService vetNameService;
 
